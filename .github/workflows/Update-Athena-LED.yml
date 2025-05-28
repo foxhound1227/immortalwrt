@@ -19,7 +19,7 @@ jobs:
         with:
           gh_token: ${{secrets.GITHUB_TOKEN}}
           delete_workflows: true
-          workflows_keep_day: 0
+          workflows_keep_day: 1
 
   update:
     runs-on: ubuntu-22.04
